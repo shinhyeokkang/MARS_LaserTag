@@ -1,0 +1,11 @@
+C:\LaserTag\mars-laser-tag-game-master\lasertag\src-gen\bin\Debug\netcoreapp2.2\lasertag.deps.json
+C:\LaserTag\mars-laser-tag-game-master\lasertag\src-gen\bin\Debug\netcoreapp2.2\lasertag.runtimeconfig.json
+C:\LaserTag\mars-laser-tag-game-master\lasertag\src-gen\bin\Debug\netcoreapp2.2\lasertag.runtimeconfig.dev.json
+C:\LaserTag\mars-laser-tag-game-master\lasertag\src-gen\bin\Debug\netcoreapp2.2\lasertag.dll
+C:\LaserTag\mars-laser-tag-game-master\lasertag\src-gen\bin\Debug\netcoreapp2.2\lasertag.pdb
+C:\LaserTag\mars-laser-tag-game-master\lasertag\src-gen\obj\Debug\netcoreapp2.2\lasertag.csprojAssemblyReference.cache
+C:\LaserTag\mars-laser-tag-game-master\lasertag\src-gen\obj\Debug\netcoreapp2.2\lasertag.csproj.CoreCompileInputs.cache
+C:\LaserTag\mars-laser-tag-game-master\lasertag\src-gen\obj\Debug\netcoreapp2.2\lasertag.AssemblyInfoInputs.cache
+C:\LaserTag\mars-laser-tag-game-master\lasertag\src-gen\obj\Debug\netcoreapp2.2\lasertag.AssemblyInfo.cs
+C:\LaserTag\mars-laser-tag-game-master\lasertag\src-gen\obj\Debug\netcoreapp2.2\lasertag.dll
+C:\LaserTag\mars-laser-tag-game-master\lasertag\src-gen\obj\Debug\netcoreapp2.2\lasertag.pdb

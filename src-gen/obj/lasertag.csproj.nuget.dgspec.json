@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\LaserTag\\mars-laser-tag-game-master\\lasertag\\src-gen\\lasertag.csproj": {}
+  },
+  "projects": {
+    "C:\\LaserTag\\mars-laser-tag-game-master\\lasertag\\src-gen\\lasertag.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\LaserTag\\mars-laser-tag-game-master\\lasertag\\src-gen\\lasertag.csproj",
+        "projectName": "lasertag",
+        "projectPath": "C:\\LaserTag\\mars-laser-tag-game-master\\lasertag\\src-gen\\lasertag.csproj",
+        "packagesPath": "C:\\Users\\강신혁\\.nuget\\packages\\",
+        "outputPath": "C:\\LaserTag\\mars-laser-tag-game-master\\lasertag\\src-gen\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\강신혁\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Mars.Life.Simulations": {
+              "target": "Package",
+              "version": "[4.1.*, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

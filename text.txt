@@ -1,0 +1,127 @@
+exploreEnemies()//exploreEnemies -1
+if(enemies!=null) 
+{tag(enemies)}//if(Enemy){ tag(Agent)} -5   (reload -3)
+//tag(real,real)
+if(hills[0]==null){
+goTo(battleground.DimensionX/2,battleground.DimensionY/2)//goTo()
+if(goTo(battleground.DimensionX/2,battleground.DimensionY/2)){
+exploreEnv(hills)//if(arrived){exploreHill}
+}//exploreEnv -1
+}
+if(hills!=null){
+goTo(hills[0])//goTo(A_Hill)
+if(goTo(hills[0])){
+if(hills[0]!=(GetX(),GetY()){// if A is on the hill, rest of team lie down nearby
+changeStance(lying)
+}
+//if(AorBorC==hill){changeStance(others{lying})
+}
+
+var B = E.Item2
+var Y = E.Item3
+
+if(exploreEnemies()!==nil) { //if(Enemy){ tag(Agent)} -5   (reload -3)
+	if(R!==nil){ tag(R[0])}
+	if(B!==nil){ tag(B[0])}
+	if(Y!==nil){ tag(Y[0])}
+
+
+
+
+
+	tick {
+		// TODO: your AI here
+
+		var E = exploreEnemies()//exploreEnemies -1
+		var R = E.Item1
+		var B = E.Item2
+		var Y = E.Item3
+		
+		if(exploreEnemies()!==nil) { //if(Enemy){ tag(Agent)} -5   (reload -3)
+		if(R[0]!==nil){ tag(R[0])}
+		if(B[0]!==nil){ tag(B[0])}
+		if(Y[0]!==nil){ tag(Y[0])}}
+		if(hills[0]==nil){
+		goTo(battleground.DimensionX/2,battleground.DimensionY/2)//goTo()
+		if(goTo(battleground.DimensionX/2,battleground.DimensionY/2)){
+		exploreEnv("hills")//if(arrived){exploreHill}
+			}//exploreEnv -1
+		}
+	
+		if(hills!==nil){
+			
+		goTo(hills.Get(0).Item1, hills.Get(0).Item2)//goTo(A_Hill)
+		if(goTo(hills.Get(0).Item1, hills.Get(0).Item2)){
+		if(hills.Get(0).Item1!=xcor and hills.Get(0).Item2!=ycor){// if A is on the hill, rest of team lie down nearby
+		changeStance("lying")
+		}
+		//if(AorBorC==hill){changeStance(others{lying})
+		}
+			
+		
+		refillPoints()
+	}
+
+
+
+
+System.out.println("Exp")
+System.out.println("Tag Red!")
+
+
+xcor-battleground.DimensionX/2<1 and xcor-battleground.DimensionX/2>-1 and ycor-battleground.DimensionY/2<1 and ycor-battleground.DimensionY/2>-1)
+
+Math.Abs(xcor-battleground.DimensionX/2)<1 and Math.Abs(ycor-battleground.DimensionY/2)<1
+
+Math.Abs(xcor-hills.Get(0).Item1)<1 and Math.Abs(ycor-hills.Get(0).Item2)<1
+
+V.2>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+	tick {
+		// TODO: your AI here
+//goTo(battleground.DimensionX/2,battleground.DimensionY/2)//goTo()
+		var E = exploreEnemies()//exploreEnemies -1
+		var R = E.Item1
+		var B = E.Item2
+		var Y = E.Item3
+		
+		if(exploreEnemies()!==nil) { //if(Enemy){ tag(Agent)} -5   (reload -3)
+		each(e in R){
+			tag(e) //5pt
+			println("Tag Red!")
+		}
+		each(e in B){
+			tag(e) //5pt
+		}
+		each(e in Y){
+			tag(e) //5pt
+		}
+}
+		if(hills.Size<1){
+			println("move")
+		println(xcor+", "+ycor)
+		
+		if(Math.Abs(xcor-battleground.DimensionX/2)<3 and Math.Abs(ycor-battleground.DimensionY/2)<3){
+		exploreEnv("hills")//if(arrived){exploreHill}
+			
+		println("Explore")
+			}//exploreEnv -1
+			goTo(battleground.DimensionX/2,battleground.DimensionY/2)//goTo()
+		} 
+	
+		if(hills.Size>=1){
+		
+		goTo(hills.Get(0).Item1, hills.Get(0).Item2)//goTo(A_Hill)
+		if(xcor===hills.Get(0).Item1 and ycor===hills.Get(0).Item2){
+		//if(hills.Get(0).Item1!=xcor and hills.Get(0).Item2!=ycor){// if A is on the hill, rest of team lie down nearby
+		changeStance("lying")
+		//}
+		//if(AorBorC==hill){changeStance(others{lying})
+		}
+			
+		}
+		refillPoints() 
+		
+	}
+
+

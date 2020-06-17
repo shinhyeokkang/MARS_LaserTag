@@ -1,0 +1,142 @@
+[ERROR] 2020-06-15 16:11:02,479 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Index was outside the bounds of the array. 
+[ERROR] 2020-06-15 16:11:02,493 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-15 16:11:02,493 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-15 16:11:02,494 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-15 16:11:02,494 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) 
+[ERROR] 2020-06-15 16:11:02,494 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-15 16:39:22,800 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Index was outside the bounds of the array. 
+[ERROR] 2020-06-15 16:39:22,810 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-15 16:39:22,810 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-15 16:39:22,810 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-15 16:39:22,810 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) 
+[ERROR] 2020-06-15 16:39:22,810 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-15 17:48:22,577 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Index was outside the bounds of the array. 
+[ERROR] 2020-06-15 17:48:22,588 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-15 17:48:22,588 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-15 17:48:22,588 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-15 17:48:22,588 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) 
+[ERROR] 2020-06-15 17:48:22,588 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-15 18:17:09,989 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index 
+[ERROR] 2020-06-15 18:17:10,047 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-15 18:17:10,047 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-15 18:17:10,047 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-15 18:17:10,047 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index) (Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index) (Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index) 
+[ERROR] 2020-06-15 18:17:10,047 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 01:10:27,415 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 01:10:27,442 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 01:10:27,442 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 01:10:27,442 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 01:10:27,442 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 01:10:27,442 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 01:22:03,238 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Object reference not set to an instance of an object. 
+[ERROR] 2020-06-17 01:22:03,253 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 01:22:03,254 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 01:22:03,254 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 01:22:03,254 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Object reference not set to an instance of an object.) 
+[ERROR] 2020-06-17 01:22:03,254 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 01:38:31,481 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 01:38:31,498 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 01:38:31,498 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 01:38:31,498 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 01:38:31,498 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 01:38:31,498 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 10:39:30,433 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Object reference not set to an instance of an object. 
+[ERROR] 2020-06-17 10:39:30,444 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 10:39:30,444 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 10:39:30,444 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 10:39:30,444 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Object reference not set to an instance of an object.) 
+[ERROR] 2020-06-17 10:39:30,444 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:09:05,244 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Index was outside the bounds of the array. 
+[ERROR] 2020-06-17 11:09:05,257 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 11:09:05,257 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 11:09:05,257 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:09:05,257 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) 
+[ERROR] 2020-06-17 11:09:05,257 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:14:55,841 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Index was outside the bounds of the array. 
+[ERROR] 2020-06-17 11:14:55,857 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 11:14:55,857 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 11:14:55,857 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:14:55,857 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) 
+[ERROR] 2020-06-17 11:14:55,857 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:35:50,769 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Object reference not set to an instance of an object. 
+[ERROR] 2020-06-17 11:35:50,780 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 11:35:50,780 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 11:35:50,780 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:35:50,780 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Object reference not set to an instance of an object.) 
+[ERROR] 2020-06-17 11:35:50,780 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:44:33,777 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Object reference not set to an instance of an object. 
+[ERROR] 2020-06-17 11:44:33,787 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 11:44:33,787 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 11:44:33,787 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:44:33,787 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Object reference not set to an instance of an object.) 
+[ERROR] 2020-06-17 11:44:33,787 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:46:23,175 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 11:46:23,184 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 11:46:23,184 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 11:46:23,184 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:46:23,184 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 11:46:23,184 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:52:22,424 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 11:52:22,444 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 11:52:22,444 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 11:52:22,445 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:52:22,445 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 11:52:22,445 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:57:25,155 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 11:57:25,166 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 11:57:25,166 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 11:57:25,166 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 11:57:25,166 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 11:57:25,166 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 15:19:37,956 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 15:19:37,973 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 15:19:37,973 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 15:19:37,973 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 15:19:37,973 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 15:19:37,973 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 16:22:03,075 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Object reference not set to an instance of an object. 
+[ERROR] 2020-06-17 16:22:03,087 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 16:22:03,087 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 16:22:03,087 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 16:22:03,087 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Object reference not set to an instance of an object.) 
+[ERROR] 2020-06-17 16:22:03,087 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 16:45:36,237 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 16:45:36,249 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 16:45:36,249 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 16:45:36,249 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 16:45:36,249 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 16:45:36,249 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 17:07:22,291 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 17:07:22,301 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 17:07:22,301 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 17:07:22,301 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 17:07:22,301 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 17:07:22,301 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 17:13:11,019 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 17:13:11,030 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 17:13:11,030 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 17:13:11,030 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 17:13:11,030 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 17:13:11,030 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 17:16:59,400 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 17:16:59,410 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 17:16:59,410 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 17:16:59,410 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 17:16:59,410 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 17:16:59,410 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 17:28:14,471 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 17:28:14,480 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 17:28:14,480 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 17:28:14,480 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 17:28:14,480 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 17:28:14,480 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 17:28:58,280 | Mars.Core.SimulationStepExecutor.Implementation.StepExecutionUseCase - Collection was modified; enumeration operation may not execute. 
+[ERROR] 2020-06-17 17:28:58,291 | Mars.Core.SimulationStarter.SimulationStarter - MARS simulation execution crashed by AggregateException 
+[ERROR] 2020-06-17 17:28:58,291 | Mars.Core.SimulationStarter.SimulationStarter - Exception message: 
+[ERROR] 2020-06-17 17:28:58,291 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
+[ERROR] 2020-06-17 17:28:58,291 | Mars.Core.SimulationStarter.SimulationStarter - One or more errors occurred. (Collection was modified; enumeration operation may not execute.) (Collection was modified; enumeration operation may not execute.) 
+[ERROR] 2020-06-17 17:28:58,291 | Mars.Core.SimulationStarter.SimulationStarter - ######################################################## 
