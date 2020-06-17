@@ -3,6 +3,9 @@ An Agent-Based Game Simulation for Testing Intelligent and Goal-Oriented Behavio
 
 
 green- sean
+
 red- min
+
 blue-paco
+
 yellow-vadym
