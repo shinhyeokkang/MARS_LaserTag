@@ -98,7 +98,7 @@ agent Green on Battleground {
 		}
 
 			else{
-			stage=4
+			stage=4 
 			if(currStance==="standing"){//-2
 			changeStance("lying")
 			}
