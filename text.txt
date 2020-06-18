@@ -125,3 +125,20 @@ V.2>>>>>>>>>>>>>>>>>>>>>>>>>>
 	}
 
 
+var hill = explore Hill 
+if (hill[0].IsFree) 
+
+var team = exploreTeam
+if(hills.Get(0).Item1===team.Item1.Get(0) and hills.Get(0).Item2===team.Item1.Get(1) or hills.Get(0).Item1===T2.GetX() and hills.Get(0).Item2===T2.GetY())
+var T1 = team.Item1
+var T2 = team.Item2
+
+
+each(e in team){
+	var  //5pt
+		}
+currStance=="Standing"){
+
+if(magazineCount<=1){
+reload()
+}
