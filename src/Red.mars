@@ -51,6 +51,7 @@ agent Red on Battleground {
 	
 	tick {
 		// TODO: your AI here
+		goTo(battleground.DimensionX/2,battleground.DimensionY/2)//goTo()
 		refillPoints()
 	}
 
