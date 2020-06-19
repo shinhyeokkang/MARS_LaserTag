@@ -51,7 +51,104 @@ agent Blue on Battleground {
 	
 	tick {
 		// TODO: your AI here
-		goTo(battleground.DimensionX/2,battleground.DimensionY/2)//goTo()
+		var Enemy = exploreEnemies()
+		if(length(Enemy.Item1) !== 0 and length(Enemy.Item2) !== 0 and length(Enemy.Item3) !== 0) {
+			if(magazineCount !== 0) {changeStance("lying")}
+			
+			each(e in Enemy.Item1){
+				if(e.GetEnergy === 10) {tag(e)}
+			}
+			each(e in Enemy.Item2){
+				if(e.GetEnergy === 10) {tag(e)}
+			}
+			each(e in Enemy.Item3){
+				if(e.GetEnergy === 10) {tag(e)}
+			}
+			each(e in Enemy.Item1){
+				if(battleground.GetIntegerValue(e.GetX(), e.GetY()) === 2) {tag(e)}
+			}
+			each(e in Enemy.Item2){
+				if(battleground.GetIntegerValue(e.GetX(), e.GetY()) === 2) {tag(e)}
+			}
+			each(e in Enemy.Item3){
+				if(battleground.GetIntegerValue(e.GetX(), e.GetY()) === 2) {tag(e)}
+			}
+			each(e in Enemy.Item1){
+				if(e.GetStance === "standing") {tag(e)}
+			}
+			each(e in Enemy.Item2){
+				if(e.GetStance === "standing") {tag(e)}
+			}
+			each(e in Enemy.Item3){
+				if(e.GetStance === "standing") {tag(e)}
+			}
+			each(e in Enemy.Item1){
+				if(e.GetEnergy < 40) {tag(e)}
+			}
+			each(e in Enemy.Item2){
+				if(e.GetEnergy < 40) {tag(e)}
+			}
+			each(e in Enemy.Item3){
+				if(e.GetEnergy < 40) {tag(e)}
+			}
+			each(e in Enemy.Item1){
+				tag(e)
+			}
+			each(e in Enemy.Item2){
+				tag(e)
+			}
+			each(e in Enemy.Item3){
+				tag(e)
+			}
+		changeStance("standing")
+		}
+		if((length(Enemy.Item1) === 0 and length(Enemy.Item2) === 0 and length(Enemy.Item3) === 0) or stage ===3) {
+			if(color === "yellow") {
+				if(stage === 1) {goTo(battleground.DimensionX / 2 + 8, battleground.DimensionY / 2 + 8)}
+				else if(stage === 2) {goTo(battleground.DimensionX / 2 + 8, battleground.DimensionY / 2 - 8)}
+				else if(stage === 3) {goTo(battleground.DimensionX / 2 - 8, battleground.DimensionY / 2 - 8)}
+				else {goTo(battleground.DimensionX / 2 - 8, battleground.DimensionY / 2 + 8)}
+				
+				if(Math.Abs(battleground.DimensionX / 2 - 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 - 8 - ycor) < 3) {stage = 0}
+				else if(Math.Abs(battleground.DimensionX / 2 - 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 + 8 - ycor) < 3) {stage = 1}
+				else if(Math.Abs(battleground.DimensionX / 2 + 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 + 8 - ycor) < 3) {stage = 2}
+				else if(Math.Abs(battleground.DimensionX / 2 + 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 - 8 - ycor) < 3) {stage = 3}
+			}
+			else if(color === "green") {
+				if(stage === 1) {goTo(battleground.DimensionX / 2 + 8, battleground.DimensionY / 2 - 8)}
+				else if(stage === 2) {goTo(battleground.DimensionX / 2 - 8, battleground.DimensionY / 2 - 8)}
+				else if(stage === 3) {goTo(battleground.DimensionX / 2 - 8, battleground.DimensionY / 2 + 8)}
+				else {goTo(battleground.DimensionX / 2 + 8, battleground.DimensionY / 2 + 8)}
+				
+				if(Math.Abs(battleground.DimensionX / 2 - 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 + 8 - ycor) < 3) {stage = 0}
+				else if(Math.Abs(battleground.DimensionX / 2 + 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 + 8 - ycor) < 3) {stage = 1}
+				else if(Math.Abs(battleground.DimensionX / 2 + 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 - 8 - ycor) < 3) {stage = 2}
+				else if(Math.Abs(battleground.DimensionX / 2 - 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 - 8 - ycor) < 3) {stage = 3}
+			}
+			else if(color === "blue") {
+				if(stage === 1) {goTo(battleground.DimensionX / 2 - 8, battleground.DimensionY / 2 - 8)}
+				else if(stage === 2) {goTo(battleground.DimensionX / 2 - 8, battleground.DimensionY / 2 + 8)}
+				else if(stage === 3) {goTo(battleground.DimensionX / 2 + 8, battleground.DimensionY / 2 + 8)}
+				else {goTo(battleground.DimensionX / 2 + 8, battleground.DimensionY / 2 - 8)}
+				
+				if(Math.Abs(battleground.DimensionX / 2 + 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 + 8 - ycor) < 3) {stage = 0}
+				else if(Math.Abs(battleground.DimensionX / 2 + 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 - 8 - ycor) < 3) {stage = 1}
+				else if(Math.Abs(battleground.DimensionX / 2 - 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 - 8 - ycor) < 3) {stage = 2}
+				else if(Math.Abs(battleground.DimensionX / 2 - 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 + 8 - ycor) < 3) {stage = 3}
+			}
+			else if(color === "red") {
+				if(stage === 1) {goTo(battleground.DimensionX / 2 - 8, battleground.DimensionY / 2 + 8)}
+				else if(stage === 2) {goTo(battleground.DimensionX / 2 + 8, battleground.DimensionY / 2 + 8)}
+				else if(stage === 3) {goTo(battleground.DimensionX / 2 + 8, battleground.DimensionY / 2 - 8)}
+				else {goTo(battleground.DimensionX / 2 - 8, battleground.DimensionY / 2 - 8)}
+				
+				if(Math.Abs(battleground.DimensionX / 2 + 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 - 8 - ycor) < 3) {stage = 0}
+				else if(Math.Abs(battleground.DimensionX / 2 - 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 - 8 - ycor) < 3) {stage = 1}
+				else if(Math.Abs(battleground.DimensionX / 2 - 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 + 8 - ycor) < 3) {stage = 2}
+				else if(Math.Abs(battleground.DimensionX / 2 + 8 - xcor) < 3 and Math.Abs(battleground.DimensionY / 2 + 8 - ycor) < 3) {stage = 3}
+			}
+		}
+		reload()
 		refillPoints()
 	}
 
